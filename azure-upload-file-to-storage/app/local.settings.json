@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=sickdnb;AccountKey=oR2nJjFqQI6nqoLnuIFCo4ysK1PkZAVIpxWYCl6zdkSX+SvHtbvRuCg0pW55YQ76HgbXQIH1EgzA+AStZUNAyg==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
+    "Azure_Storage_AccountName": "sickdnb",
+    "Azure_Storage_AccountKey":"oR2nJjFqQI6nqoLnuIFCo4ysK1PkZAVIpxWYCl6zdkSX+SvHtbvRuCg0pW55YQ76HgbXQIH1EgzA+AStZUNAyg=="
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}
+
