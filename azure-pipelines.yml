@@ -26,8 +26,7 @@ stages:
   jobs:
   - job: Build
     displayName: Build
-    pool: 
-      vmImage: $(vmImageName)
+    pool: my-old-computer
 
     steps:
     - task: ArchiveFiles@2
@@ -50,8 +49,7 @@ stages:
   - deployment: Deploy
     displayName: Deploy
     environment: $(environmentName)
-    pool:
-      vmImage: $(vmImageName)
+    pool: my-old-computer
     strategy:
       runOnce:
         deploy:
