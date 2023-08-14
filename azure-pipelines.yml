@@ -26,7 +26,7 @@ stages:
   jobs:
   - job: Build
     displayName: Build
-    pool: my-old-computer
+    pool: default
 
     steps:
     - task: ArchiveFiles@2
@@ -49,7 +49,7 @@ stages:
   - deployment: Deploy
     displayName: Deploy
     environment: $(environmentName)
-    pool: my-old-computer
+    pool: default
     strategy:
       runOnce:
         deploy:
